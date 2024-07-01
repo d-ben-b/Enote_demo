@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airtable Image Carousel</title>
+    <style>
+        #carousel {
+            max-width: 670px;
+            margin: 0 auto;
+            position: relative;
+        }
+        #carousel img {
+            width: 100%;
+            display: none;
+        }
+        #carousel img.active {
+            display: block;
+        }
+        #carousel .caption {
+            display: none;
+            text-align: center;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        #carousel .caption.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="carousel">
+        <!-- Images will be dynamically inserted here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
